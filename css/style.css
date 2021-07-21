@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    background-color: #f5f7f8;
+
+}
+
+
+h1 {
+    text-align: center;
+    padding: 0.6em 1em;
+    font-size: 1.4em;
+    background-color: #31363b;
+    display: inline-block;
+    width: 20%;
+    position: fixed;
+}
+
+h1>a {
+    text-decoration: none;
+    color: #202326;
+    ;
+    transition: all 1s ease-in-out;
+    font-weight: 900;
+}
+
+h1:hover>a {
+    text-decoration: none;
+    color: #aaa;
+    ;
+}
+
+
+
+#h1-span {
+    font-weight: bold;
+    display: inline;
+}
+
+
+/* Left Side */
+#left-side {
+    height: 100%;
+    width: 20%;
+    background-color: #2a2f33;
+    position: fixed;
+    display: flex;
+    overflow-x: hidden;
+    top: 44px;
+    left: 0;
+
+}
+
+/*Logo section*/
+.logo-ul {
+    width: 6%;
+    background-color: #2a2f33;
+}
+
+.logo-li {
+    padding: 0.5em;
+}
+
+.img-logo {
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+    transition: all 1s ease;
+}
+
+.img-logo:hover {
+    opacity: 1;
+}
+
+.notification-span {
+    font-size: 10px !important;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin-left: 8px;
+    padding: 1px 12px;
+}
+
+/*Accordion Menu*/
+
+#accordion {
+    width: 100%;
+    background-color: #393d42;
+    color: #fff;
+}
+
+#accordion h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 34px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+#accordion h3:hover {
+    background-color: #f55661;
+}
+
+#accordion h3:hover i {
+    color: #fff;
+}
+
+
+
+
+/* links */
+#accordion ul ul li a {
+    color: white;
+    display: block;
+    font-size: 11px;
+    line-height: 27px;
+    padding: 0 15px;
+    text-decoration: none;
+    transition: all .1s;
+
+}
+
+/* hover effect */
+#accordion ul ul li a:hover {
+    color: #f55661;
+}
+
+
+/* hide non-actives by default */
+#accordion ul ul {
+    display: none;
+    list-style-type: disc;
+    padding: 1.8em;
+    background: #32363a
+}
+
+#accordion ul ul:first-child {
+    background: #32363a;
+}
+
+
+/* #accordion li.active ul{
+    display:block;
+  }*/
+
+
+/* Icon font styles */
+#accordion h3 span {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+i {
+    font-weight: 100;
+    color: #f55661;
+}
+
+
+
+.open {
+    background-color: #f55661;
+}
+
+.open i {
+    color: white;
+}
+
+/* Right Side */
+#right-side {
+    margin-left: 20%;
+    width: 70%;
+    padding: 10px;
+}
+
+.rightside-ul {
+    display: flex;
+    margin: 1em;
+}
+
+.rightside-li {
+    margin-left: 1.7em;
+    font-size: 1em;
+}
+
+
+
+.rightside-li>a {
+    text-decoration: none;
+}
+
+/*Card Area*/
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*Card Component*/
+.card {
+    padding: 1em;
+}
+
+h4 {
+    color: #959595;
+    font-size: 22px;
+    margin-left: 1em;
+}
+
+
+.card-component {
+    display: flex;
+    padding: 1em;
+
+}
+
+.content-area {
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+.statusbar {
+    min-width: 1.5em;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+
+}
+
+
+
+.content-nav {
+    display: flex;
+
+}
+
+.content-area p {
+    width: 300px;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.content-ul {
+    display: flex;
+    padding-bottom: 2em;
+    margin-left: 4em;
+
+}
+
+.content-ul li {
+    display: flex;
+
+}
+
+.content-ul li a {
+    text-decoration: none;
+    margin-right: 1em;
+
+}
+
+
+
+.img-container {
+    width: 300px;
+    height: 200px;
+    margin:0 auto;
+
+
+
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.card-footer-ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.card-footer-ul li a {
+    text-decoration: none;
+}
