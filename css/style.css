@@ -154,9 +154,8 @@ h1:hover>a {
     padding-right: 10px;
 }
 
-i {
-    font-weight: 100;
-    color: #f55661;
+.left-icon i{
+    color:#f55661;
 }
 
 
@@ -172,9 +171,25 @@ i {
 /* Right Side */
 #right-side {
     margin-left: 20%;
-    width: 70%;
+    width: 75%;
     padding: 10px;
 }
+
+
+
+.right-image{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.right-image img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+
+}
+
 
 .rightside-ul {
     display: flex;
@@ -182,9 +197,10 @@ i {
 }
 
 .rightside-li {
-    margin-left: 1.7em;
-    font-size: 1em;
+    margin: 1em;
+    font-size: .8em;
 }
+
 
 
 
@@ -210,6 +226,9 @@ h4 {
     margin-left: 1em;
 }
 
+.right-icon i{
+    color: #fff;
+}
 
 .card-component {
     display: flex;
@@ -296,4 +315,8 @@ h4 {
 
 .card-footer-ul li a {
     text-decoration: none;
+}
+
+.reaction-span{
+    color: #acacac;
 }
