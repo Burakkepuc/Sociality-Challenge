@@ -10,3 +10,6 @@ $("#accordion h3").click(function() {
 })
 
 
+  $('.leftsidebarButton').click(function(){
+    $('#left-side').toggleClass('active');
+})

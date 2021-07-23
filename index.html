@@ -19,18 +19,20 @@
   <!-- FONT AWESOME ICONS -->
   <script src="https://kit.fontawesome.com/eb6e3d525a.js" crossorigin="anonymous"></script>
 
+<!-- HAMBURGER MENU -->
+<link href="css/hamburger.css" rel="stylesheet">
+
 
 </head>
 
 <body>
+  <h1><a href="https://www.sociality.io" target="_blank"><span id=h1-span>sociality</span>.io</h1></a>
+  <div class="leftsidebarButton"></div>
 
-  <div id="wrap-page">
-    <h1><a href="https://www.sociality.io" target="_blank"><span id=h1-span>sociality</span>.io</h1></a>
+  <section id="left-side" onclick="toggleLeftSideBar()">            
+     
 
-
-    <section id="left-side">
-
-      <div id="logo">
+      <div id="logo" class="active">
         <ul class="logo-ul">
           <li class="logo-li"> <a href="#"><img class="img-logo" src="images/instagramlogo.png"
                 alt="instagram-logo"></a> </li>
@@ -48,6 +50,7 @@
       </div>
 
       <div id="accordion">
+
         <ul>
           <li class="active">
             <h3><span class="left-icon icon-dashboard"><i class="far fa-bell"></i></span>Notifications<span
@@ -79,7 +82,7 @@
           </li>
 
           <li>
-            <h3><span class="left-icon icon-cloud"><i class="fas fa-volume-up"></i></.span>Listen</h3>
+            <h3><span class="left-icon icon-cloud"><i class="fas fa-volume-up"></i></span>Listen</h3>
             <ul>
               <li class="accordion-li"><a href="#">Lorem</a></li>
               <li class="accordion-li"><a href="#">Ipsum</a></li>
@@ -93,12 +96,18 @@
               <li class="accordion-li"><a href="#">Ipsum</a></li>
 
             </ul>
+
           </li>
 
+        </div>
+        
         </ul>
-      </div>
-
-    </section>
+       
+      
+  </section>
+  
+   
+   
 
 
     <section id="right-side">
@@ -126,10 +135,6 @@
       </ul>
 
       
-      
-
-
-
       <h4>14 January 2016</h4>
       <!--Card Components -->
       <div class="card-area">
@@ -168,11 +173,9 @@
 
                 </ul>
               </div>
-
+            </div>
             </div>
           </div>
-        </div>
-
 
         <div class="card">
 
@@ -194,7 +197,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt rem quo sit asperiores? </p>
 
               <div class="img-container">
-                <img src="images/icecream1.jpg" alt="icecream1">
+                <img src="images/icecream2.jpg" alt="icecream1">
               </div>
 
 
@@ -211,8 +214,12 @@
             </div>
           </div>
         </div>
-      
+</div>
 
+
+
+     
+        
         <h4>12 January 2016</h4>
         <!--Card Components -->
         <div class="card-area">
@@ -237,7 +244,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt rem quo sit asperiores? </p>
   
                 <div class="img-container">
-                  <img src="images/icecream1.jpg" alt="icecream1">
+                  <img src="images/dog1.jpg" alt="icecream1">
                 </div>
   
   
@@ -275,7 +282,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt rem quo sit asperiores? </p>
   
                 <div class="img-container">
-                  <img src="images/icecream1.jpg" alt="icecream1">
+                  <img src="images/dog1.jpg" alt="icecream1">
                 </div>
   
   
@@ -313,7 +320,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt rem quo sit asperiores? </p>
   
                 <div class="img-container">
-                  <img src="images/icecream1.jpg" alt="icecream1">
+                  <img src="images/dog1.jpg" alt="icecream1">
                 </div>
   
   
@@ -337,12 +344,14 @@
       </div>
     </section>
 
-
   </div>
 
 
 
 
+
+
+  </script>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
